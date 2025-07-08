@@ -14,3 +14,19 @@ Use the Artisan command:
 
 ```bash
 php artisan make:controller MyController
+
+```
+# 📘 Laravel Resource Controller – Full Guide
+
+A **Resource Controller** in Laravel helps you handle all basic CRUD operations with a single command and clean structure.
+
+Laravel generates **7 RESTful methods** that you can use to create, read, update, and delete data.
+
+---
+
+## 🛠 Create a Resource Controller
+
+Run this Artisan command:
+
+```bash
+php artisan make:controller PostController --resource
